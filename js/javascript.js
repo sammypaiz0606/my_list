@@ -8,5 +8,15 @@ addBtn.addEventListener('click', () => {
     createElement.classList.add('create-div');
     createElement.innerText = inputField.value;
     addList.appendChild(createElement);
+    inputField.value = '';
+
+
+    createElement.addEventListener('click', () => {
+        createElement.style.textDecoration = 'line-through';
+    })
+
+    createElement.addEventListener('dblclick', () => {
+        addList.removeChild(createElement);  
+    })
 });
 
