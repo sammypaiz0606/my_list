@@ -25,7 +25,7 @@ let inputField = document.querySelector('#input');
 
 addBtn.addEventListener('click', () => {
     const createElement = document.createElement('div');
-    createElement.classList.add('animate__animated', 'animate__bounce');
+    createElement.classList.add('animate__animated', 'animate__slideInDown');
     createElement.classList.add('create-div');
     createElement.innerText = inputField.value;
 
@@ -33,9 +33,12 @@ addBtn.addEventListener('click', () => {
 
     createElement.addEventListener('click', () => {
         createElement.style.textDecoration = 'line-through';
+    
     });
 
     createElement.addEventListener('dblclick', () => {
         addList.removeChild(createElement);
+
+
     });
 });
