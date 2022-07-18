@@ -32,10 +32,10 @@ addBtn.addEventListener('click', () => {
     
 
     if(inputField.value == '') {
-        fieldIn.style.display = 'block';
+        fieldIn.style.visibility = 'visible';
         return false;
     } else {
-        fieldIn.style.display = 'none';
+        fieldIn.style.visibility = 'hidden';
     }
     addList.appendChild(createElement);
 
