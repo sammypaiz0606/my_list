@@ -68,12 +68,17 @@ h1 {
     overflow: scroll;
 }
 .dotlist-container .inputField {
-    background: pink;
     box-shadow:5px 15px 15px rgba(97, 95, 95, 0.7) ;
     border-radius: 1rem;
     display: flex;
     justify-content:space-between;
     align-items: center;
+}
+#fieldIn {
+    margin-left: 25px;
+    color:red;
+    font-weight:bold;
+    display:none;
 }
 
 input {
