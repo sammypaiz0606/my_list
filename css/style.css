@@ -31,7 +31,7 @@ body {
     padding: 2rem;
     border:3px solid #4C533A;
     border-radius: 2rem;
-    overflow: hidden;
+    /* overflow: scroll; */
 
 }
 
@@ -65,6 +65,7 @@ h1 {
 .dotolist-container {
     width: 100%;
     height: 80%;
+    overflow: scroll;
 }
 .dotlist-container .inputField {
     background: pink;
@@ -98,6 +99,7 @@ input {
     
 }
 
+
 .create-div {
     width: 100%;
     height: 40px;
@@ -109,5 +111,6 @@ input {
     align-items:center;
     padding-left:0.5rem;
     cursor:pointer;
+    
     
 }
