@@ -43,7 +43,7 @@ body {
 }
 
 .app-info i {
-    font-size: 30px;
+    font-size: 25px;
     background: #4C533A;
     padding: 0.5em;
     color: var(--main-bg-color);
